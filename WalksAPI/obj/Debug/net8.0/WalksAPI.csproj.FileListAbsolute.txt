@@ -135,3 +135,4 @@ C:\ASP.NET\Walks\WalksAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtim
 C:\ASP.NET\Walks\WalksAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\ASP.NET\Walks\WalksAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\ASP.NET\Walks\WalksAPI\obj\Debug\net8.0\WalksAPI.sourcelink.json
+C:\ASP.NET\Walks\WalksAPI\bin\Debug\net8.0\AutoMapper.dll

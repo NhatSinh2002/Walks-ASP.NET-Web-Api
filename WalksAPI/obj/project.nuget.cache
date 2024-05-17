@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "da9myH63Jqpb6FPznpI5DajSEAYApzQXVVKtbw479Qtp7F9bkIaU7ZbjkgN/WzmS/j8X/3ei/Lg7hOP9R4gRnQ==",
+  "dgSpecHash": "LQff0dC/pyQi1pgeVdb+IUv6H4EqtKXwyliMouGDjftsNuGA97aWgk/u2Pk8m/RcWypT5NYRfu1Rezm9UHt0Sg==",
   "success": true,
   "projectFilePath": "C:\\ASP.NET\\Walks\\WalksAPI\\WalksAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Sinh\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Sinh\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Sinh\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Sinh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
