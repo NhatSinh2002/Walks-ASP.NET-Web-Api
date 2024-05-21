@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
 using System.Reflection.Metadata.Ecma335;
+using WalksAPI.CustomActionFilters;
 using WalksAPI.Models.Domain;
 using WalksAPI.Models.DTO;
 using WalksAPI.Repositories;
@@ -25,13 +26,15 @@ namespace WalksAPI.Controllers
         // CREATE WALK
         //POST 
         [HttpPost]
+        [ValidateModel]
         public async Task<IActionResult> Create([FromBody] AddWalkRequestDto addWalkRequestDto)
         {
-            //Map DTO to Domain Model
-            var walkDomainModel = mapper.Map<Walk>(addWalkRequestDto);
-            await walkRepository.CreateAsync(walkDomainModel);
-            //Map Domain Model to DTO
-            return Ok(mapper.Map<WalkDto>(walkDomainModel));
+                //Map DTO to Domain Model
+                var walkDomainModel = mapper.Map<Walk>(addWalkRequestDto);
+                await walkRepository.CreateAsync(walkDomainModel);
+                //Map Domain Model to DTO
+                return Ok(mapper.Map<WalkDto>(walkDomainModel));
+            
         }
 
         //GET ALL WALKS
@@ -61,17 +64,18 @@ namespace WalksAPI.Controllers
         //UPDATE WALK BY ID
         [HttpPut]
         [Route("{id:Guid}")]
+        [ValidateModel]
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateWalkRequestDto updateWalkRequestDto)
         {
-            //Map DTO to Domain Model
-            var walkDomainModel = mapper.Map<Walk>(updateWalkRequestDto);
-            walkDomainModel = await walkRepository.UpdateAsync(id, walkDomainModel);
-            if (walkDomainModel == null)
-            {
-                return NotFound();
-            }
-            //Map Domain Model to DTO
-            return Ok(mapper.Map<WalkDto>(walkDomainModel)); 
+                //Map DTO to Domain Model
+                var walkDomainModel = mapper.Map<Walk>(updateWalkRequestDto);
+                walkDomainModel = await walkRepository.UpdateAsync(id, walkDomainModel);
+                if (walkDomainModel == null)
+                {
+                    return NotFound();
+                }
+                //Map Domain Model to DTO
+                return Ok(mapper.Map<WalkDto>(walkDomainModel));
         }
 
         //DELETE WALK BY ID
