@@ -136,3 +136,10 @@ C:\ASP.NET\Walks\WalksAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Securi
 C:\ASP.NET\Walks\WalksAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\ASP.NET\Walks\WalksAPI\obj\Debug\net8.0\WalksAPI.sourcelink.json
 C:\ASP.NET\Walks\WalksAPI\bin\Debug\net8.0\AutoMapper.dll
+C:\ASP.NET\Walks\WalksAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\ASP.NET\Walks\WalksAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\ASP.NET\Walks\WalksAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\ASP.NET\Walks\WalksAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\ASP.NET\Walks\WalksAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\ASP.NET\Walks\WalksAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\ASP.NET\Walks\WalksAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
