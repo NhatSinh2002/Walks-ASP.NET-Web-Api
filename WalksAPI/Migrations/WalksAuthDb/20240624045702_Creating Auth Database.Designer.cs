@@ -12,7 +12,7 @@ using WalksAPI.Data;
 namespace WalksAPI.Migrations.WalksAuthDb
 {
     [DbContext(typeof(WalksAuthDbContext))]
-    [Migration("20240524034639_Creating Auth Database")]
+    [Migration("20240624045702_Creating Auth Database")]
     partial class CreatingAuthDatabase
     {
         /// <inheritdoc />
